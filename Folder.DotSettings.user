@@ -1,0 +1,7 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;
+  &lt;Assembly Path="/home/cpu2/.nuget/packages/apache-thrift-netcore/0.9.3.2/lib/netstandard1.5/apache-thrift-netcore.dll" /&gt;
+  &lt;Assembly Path="/home/cpu2/.nuget/packages/apachethrift/0.13.0.1/lib/netstandard2.0/Thrift.dll" /&gt;
+  &lt;Assembly Path="/home/cpu2/.nuget/packages/thrift/0.9.1.3/lib/net35/Thrift.dll" /&gt;
+  &lt;PhysicalFolder Path="/home/cpu2/bookapi-netcore" Loaded="True" /&gt;
+&lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>
