@@ -30,14 +30,6 @@ namespace BooksApi
             // Register the Swagger services
             services.AddSwaggerDocument();
             // requires using Microsoft.Extensions.Options
-            services.Configure<BookstoreDatabaseSettings>(
-                Configuration.GetSection(nameof(BookstoreDatabaseSettings)));
-
-            services.AddSingleton<IBookstoreDatabaseSettings>(sp =>
-                sp.GetRequiredService<IOptions<BookstoreDatabaseSettings>>().Value);
-
-            services.AddSingleton<BookService>();
-
             services.AddControllers().AddNewtonsoftJson(options => options.UseMemberCasing());
         }
 

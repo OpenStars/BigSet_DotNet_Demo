@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/cpu2/bookapi-netcore/BooksApi.csproj": {}
+    "/home/minhduc/net-core/BigSet_DotNet_Demo/BooksApi.csproj": {}
   },
   "projects": {
-    "/home/cpu2/bookapi-netcore/BooksApi.csproj": {
+    "/home/minhduc/net-core/BigSet_DotNet_Demo/BooksApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/cpu2/bookapi-netcore/BooksApi.csproj",
+        "projectUniqueName": "/home/minhduc/net-core/BigSet_DotNet_Demo/BooksApi.csproj",
         "projectName": "BooksApi",
-        "projectPath": "/home/cpu2/bookapi-netcore/BooksApi.csproj",
-        "packagesPath": "/home/cpu2/.nuget/packages/",
-        "outputPath": "/home/cpu2/bookapi-netcore/obj/",
+        "projectPath": "/home/minhduc/net-core/BigSet_DotNet_Demo/BooksApi.csproj",
+        "packagesPath": "/home/minhduc/.nuget/packages/",
+        "outputPath": "/home/minhduc/net-core/BigSet_DotNet_Demo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/cpu2/.nuget/NuGet/NuGet.Config"
+          "/home/minhduc/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -44,10 +44,6 @@
               "target": "Package",
               "version": "[3.1.4, )"
             },
-            "MongoDB.Driver": {
-              "target": "Package",
-              "version": "[2.10.4, )"
-            },
             "NSWag.AspNetCore": {
               "target": "Package",
               "version": "[13.5.0, )"
@@ -63,6 +59,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -71,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
         }
       }
     }
